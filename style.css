@@ -1,0 +1,248 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	color: #3a3a3a;
+	padding-top: 50px;
+}
+
+p {
+	font-size: .95em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+div,
+a {
+	font-family: '돋움', dotum, helvetica,sans-serif;
+}
+
+a {
+	font-weight: bold;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.container {
+	max-width: 1200px;
+}
+
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #f0f0f0;
+}
+
+
+/* ================================= 
+  Stat 1
+==================================== */
+.stat {
+	display: flex;
+	flex-direction: column;
+}
+
+.sunn {
+
+}
+
+.stat1 {
+	display: flex;
+	background-image: url('../img/logo.jpg');
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.stat1-element {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.pic {
+	background-color: #fff;
+}
+
+
+.stat1-element {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 20px;
+	margin-left: 20px;
+}
+
+
+.basic-info {
+	text-align: right;
+}
+
+/* ================================= 
+  Stat 2
+==================================== */
+
+.d-flex {
+	background-color: #f0f0f0;
+	padding-bottom: 5px;
+}
+
+.lefty-top {
+	text-align: left;
+	margin: 5px 0 0px 5px;
+	font-size: 0.8em;
+}
+
+.center-middle {
+	font-size: .9em;
+}
+
+
+/* ================================= 
+  Stat 2 + sec 2
+==================================== */
+
+.row {
+	margin: 0;
+}
+
+/* ================================= 
+  Stat 2 + sec 3
+==================================== */
+
+
+.sec3-blank {
+	height: 80px;
+	width: 25%;
+}
+
+
+
+/* ================================= 
+	blank
+==================================== */
+.primary {
+	margin-top: 20px;
+}
+
+/* ================================= 
+  container+table
+==================================== */
+	.secondary {
+		width: 100%;
+	}
+	
+	h2 {
+		height: auto;
+		font-size: 1.4em;
+		margin-bottom: 5px;
+		padding-left: 10px;
+	}
+	
+	.yes {
+		text-align: left;
+	}
+	
+	.yesorno {
+		width: 100%;
+	}
+
+	tr,
+	th,
+	td {
+		text-align: center;
+	}
+	
+	
+	.gil {
+		text-align: left;
+	}
+	
+/* ================================= 
+  Gisa
+==================================== */
+	
+.article {
+	height: 400px;
+	overflow: scroll;
+	padding-top: 10px;
+}	
+	
+.actual-gisa {
+	width: 100%;
+	height: 200px;
+	
+}
+
+.pum a {
+	margin-left: 10px;
+	font-size: 1.5em;
+}
+
+.pum {
+	display: inline;
+}
+
+.srch li {
+	overflow: hidden;
+	clear: both;
+}
+
+.srch li .omg {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.omg2 {
+	color: #1616a4;
+	text-decoration: underline;
+}
+
+.bonmoon {
+	margin-top: 5px;
+	font-size: .9em;
+}
+	
+/* ================================= 
+  Jiyuk
+==================================== */	
+
+.actual-jiyuk {
+	width: 100%;
+	height: 200px;
+}	
+	
+	
+/* ================================= 
+  Stat-summary
+==================================== */	
+
+	
+	
+.yoyak {
+	display: block;
+	font-size: 0.8em;
+}
+
+.summary {
+	text-align: left;
+	padding-left: 20px;
+}
+

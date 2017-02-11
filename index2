@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ribbit - A Treehouse Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+		<! -- navbar---->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand text-muted" href="#">NALeague</a>
+				<div class="collapse navbar-collapse">
+				
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">국회의원</a></li>
+						<li class="dropdown">
+						<a data-toggle="dropdown" data-target="#">정당<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a>국민의당</a></li>
+								<li><a>더불어민주당</a></li>
+								<li><a>바른정당</a></li>
+								<li><a>새누리당</a></li>
+								<li><a>정의당</a></li>
+								<li class="divider"></li>
+								<li><a>전체페이지</a></li>
+							</ul>
+						</li>
+						<li><a href="#">국회</a></li>
+						<li><a href="#">게시판</a></li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<! -- end navbar---->
+		
+		<! -- Carousel---->
+		
+		<div class="container">
+				<div class="stat">
+					<div class="stat1">
+						<div class="person stat-element">
+							<img src="img/kim1.jpg" alt="kim-kyung-jin">
+						</div>
+						<div class="pic stat1-element">
+							<div class="basic-info">
+								<span>국민의당</span>
+							</div>
+							<div class="basic-info">
+								<span>김경진</span>
+							</div>
+							<div class="basic-info">
+								<span>초선의원</span>
+							</div>
+							<div class="btn-group">
+									<a class="btn btn-lg btn-primary" href="http://twitter.com/2016kimkj">페이스북 계정</a>
+									<a class="btn btn-lg btn-info" href="https://www.facebook.com/kyungjinkimkorea">트위터 계정</a>
+							</div>
+						</div>
+					</div>
+					<div class="stat2 row">
+						<div class="col-md-4 row">
+							<div class="col-md-6">
+								<div class="lefty-top">지역구</div>
+								<div class="center-middle">광주 북구갑</div>
+							</div>
+							<div class="col-md-6">
+								<div class="lefty-top">위원회</div>
+								<div class="center-middle">미래방송통신위원회</div>
+							</div>
+						</div>
+						<div class="col-md-4 row">
+							<div class="col-md-3">
+                                <div class="lefty-top">본회의참석률</div>
+								<div class="center-middle big-word">97%</div>
+                            </div>
+							<div class="col-md-3">
+                                <div class="lefty-top">본표율</div>
+								<div class="center-middle big-word">96%</div>
+                            </div>
+							<div class="col-md-3">
+                                <div class="lefty-top">본표가율</div>
+								<div class="center-middle big-word">85%</div>
+                            </div>
+							<div class="col-md-3">
+                                <div class="lefty-top">총대투비</div>
+								<div class="center-middle big-word">99%</div>
+                            </div>
+						</div>			
+						<div class="col-md-4 row">
+							<div class="col-md-3">
+                                <div class="lefty-top">대표법안발의수</div>
+								<div class="center-middle big-word">6</div>
+                            </div>
+							<div class="col-md-3">
+                                <div class="lefty-top">재대법밥율</div>
+								<div class="center-middle big-word">0.75</div>
+                            </div>
+							<div class="col-md-3">
+                                <div class="lefty-top">대법발통율</div>
+								<div class="center-middle big-word">0%</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="lefty-top">위원회참석율</div>
+								<div class="center-middle big-word">4.5/5</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+				
+		<div class="container columns">
+			<div class="primary">
+				<h2>표결</h2>
+			</div>
+			<div class="secondary">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>날짜</th>
+							<th>의안번호</th>
+							<th>법안발의자</th>
+							<th>안건명</th>
+							<th>투표인원</th>
+							<th>찬성</th>
+							<th>반대</th>
+							<th>기권</th>
+							<th>본의원표결</th>
+						</tr>
+					</thead>
+					<tbody class="table-striped">
+						<tr>
+							<td>2017-1-20</td>
+							<td>2001409</td>
+							<td>서교원의원등39인</td>
+							<td class="gil">가습기살균제 피해구제법안</td>
+							<td class="ntocenter">156</td>
+							<td class="ntocenter">154</td>
+							<td class="ntocenter">0</td>
+							<td class="ntocenter">2</td>
+							<td class="ntocenter">찬성</td>
+						</tr>
+						<tr>
+							<td>2017-1-20</td>
+							<td>2005229</td>
+							<td>김순례의원등18인</td>
+							<td class="gil">금강산 투자기업 피해보상에 관한 청원</td>
+							<td class="ntocenter">174</td>
+							<td class="ntocenter">159</td>
+							<td class="ntocenter">4</td>
+							<td class="ntocenter">11</td>
+							<td class="ntocenter">찬성</td>
+						</tr>
+						<tr>
+							<td>2017-1-20</td>
+							<td>2002901</td>
+							<td>이헌승의원등 5인</td>
+							<td class="gil">연구자 주도 기초연구 지원학대에 관한 청원</td>
+							<td class="ntocenter">173</td>
+							<td class="ntocenter">170</td>
+							<td class="ntocenter">1</td>
+							<td class="ntocenter">2</td>
+							<td class="ntocenter">찬성</td>
+						</tr>
+						<tr>
+							<td>2017-1-20</td>
+							<td>2003321</td>
+							<td>강병원의원등17인</td>
+							<td class="gil">2016년도 산업통상자원위원회 국정검사 결과에..</td>
+							<td class="ntocenter">185</td>
+							<td class="ntocenter">167</td>
+							<td class="ntocenter">2</td>
+							<td class="ntocenter">16</td>
+							<td class="ntocenter">찬성</td>
+						</tr>
+						<tr>
+							<td>2017-1-20</td>
+							<td>2001409</td>
+							<td>유민봉의원등21인</td>
+							<td class="gil">중고등학교 역사교가서의 국정화 추진 중단 및 폐기 촉구 결의안</td>
+							<td class="ntocenter">220</td>
+							<td class="ntocenter">131</td>
+							<td class="ntocenter">87</td>
+							<td class="ntocenter">2</td>
+							<td class="ntocenter">찬성</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!--/.secondary-->
+		</div><!--/.container-->
+		<div class="container columns">
+			<div class="blank"></div>
+			<div class="primary">
+				<h2>대표발의법률안</h2>
+			</div>
+			<div class="secondary">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>작성일</th>
+							<th>소관의원회</th>
+							<th>법안명</th>
+							<th>의안번호</th>
+							<th>제안자</th>
+							<th>제안회기</th>
+							<th>처리상태</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2017-01-24</td>
+							<td>안정행정위원회</td>
+							<td class="gil">공직선거법 일부개정법률안</td>
+							<td>200526</td>
+							<td>김경진의원 등 10인</td>
+							<td>제20대 제348회</td>
+							<td>위원회심사</td>
+						</tr>
+						<tr>
+							<td>2017-01-16</td>
+							<td>국회운영위원회</td>
+							<td class="gil">국회에서의 증언/감정 등에 관한 법률 일부개정법률안</td>
+							<td>2005119</td>
+							<td>김경진의원 등 42인</td>
+							<td>제20대 제348회</td>
+							<td>위원회심사</td>
+						</tr>
+						<tr>
+							<td>2016-10-25</td>
+							<td>미창방통위</td>
+							<td class="gil">이동통신단말 장치 유동개선 법률</td>
+							<td>2002897</td>
+							<td>김경진의원 등 22인</td>
+							<td>제20대 제356회</td>
+							<td>의원회심사</td>
+						</tr>
+						<tr>
+							<td>2016-10-20</td>
+							<td>미창방통위</td>
+							<td class="gil">전파법 일부개정법률안</td>
+							<td>2002755</td>
+							<td>김경진의원 등 12인</td>
+							<td>제20대 제346회</td>
+							<td>체계자구심사</td>
+						</tr>
+						<tr>
+							<td>2016-09-05</td>
+							<td>미창방통위</td>
+							<td class="gil">원자력안전법 일부개정법률안</td>
+							<td>2002154</td>
+							<td>김경진의원 등 16인</td>
+							<td>제20대 제346회</td>
+							<td>위원회심사</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>	
+		<div class="container columns">
+			<div class="blank"></div>
+			<div class="primary">
+				<h2>대표발언</h2>
+			</div>
+			<div class="yes">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>본회의</th>
+							<th>대표발언</th>
+							<th>관련내용</th>
+							<th>파일</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>제348회</td>
+							<td class="gil">미창방통위/이동통신단말 장치 유동개선 법률 대표</td>
+							<td>파일참조</td>
+							<td>파일</td>
+						</tr>
+						<tr>
+							<td>제346회</td>
+							<td class="gil">미창방통위/전파법 일부 개정 법률안 대표</td>
+							<td>파일참조</td>
+							<td>파일</td>
+						</tr>
+						<tr>
+							<td>제344회</td>
+							<td class="gil">미창방통위/전파법 일부 개정 법률안 대표</td>
+							<td>파일참조</td>
+							<td>파일</td>
+						</tr>
+						<tr>
+							<td>제342회</td>
+							<td class="gil">국민의당/국정조사 관련</td>
+							<td>파일참조</td>
+							<td>파일</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="container columns">
+			<div class="blank"></div>
+			<div class="primary gisa">
+				<h2>관련기사</h2>
+			</div>
+			<div class="article">
+				<ul class="srch">
+					<li>
+						<a href="http://www.etnews.com/20170201000401" class="omg">
+							<img src="img/news1.png">
+						</a>
+					<div>
+						<a href="http://www.etnews.com/20170201000401" class="omg2">국민의당 김경진, 반기문 대선 불출마 선언에 "국가를 위한 큰 틀에서 볼 때 바람직한 선택"</a>
+						<p class="bonmoon">국민의당 김경진, 반기문 대선 불출마 선언에 “국가를 위한 큰 틀에서 볼 때 바람직한 선택” 반기문 전 유엔 사무총장의 대선 불출마 선언에 대해 국민의당은 “개인에 대한 연민의 정은 있지만, 국가를 위한 큰 틀에서 볼 때 바람직한 선택”이라고 밝혔다. 1일 국민의당 김경진...</p>
+					</div>
+					</li>
+				</ul>
+				<ul class="srch">
+					<li>
+						<a href="http://www.etnews.com/20170201000401" class="omg">
+							<img src="img/news2.png">
+						</a>
+					<div>
+						<a href="http://www.etnews.com/20170201000401" class="omg2">김경진 "미얀마 대사 인사에 최순실 국정농단 있었는지 조사해야"</a>
+						<p class="bonmoon">국민의당 김경진 수석대변인은 브리핑을 통해 "삼성임원의 미얀마 대사 임명, 전례 없는 이변 뒤에는 최순실의 국정농단이 있었다"고 주ㅏㅇ하며서 엄중한 수사를 촉구했다. 김 대변인은 "비외교관 출신 대사임명 그것도 삼성임원을 골라서 추천하고 임명했다는 점에서 삼성과 최순실...</p>
+					</div>
+					</li>
+				</ul>
+				<ul class="srch">
+					<li>
+						<a href="http://www.etnews.com/20170201000401" class="omg">
+							<img src="img/news3.png">
+						</a>
+					<div>
+						<a href="http://www.etnews.com/20170201000401" class="omg2">최순실 자백 강요 고성, 김경진 "특검 조사 받은 적 없는데 강압 조사?"</a>
+						<p class="bonmoon">지난 25일 방송된 TV조선 ‘박종진 라이브쇼’에서는 ‘여의도 어벤져스’라고 불리는 바른정당 황영철 의원, 장제원 대변인, 국민의당 김경진, 더불어민주당 이언주 의원, 새누리당 홍문종 의원 등이 출연했다. 이날 김경진 의원은 최순실이 특검 소환과정에서 “민주 특검 아닌 자백 강요...</p>
+					</div>
+					</li>
+				</ul>	
+				<ul class="srch">
+					<li>
+						<a href="http://www.etnews.com/20170201000401" class="omg">
+							<img src="img/news4.png">
+						</a>
+					<div>
+						<a href="http://www.etnews.com/20170201000401" class="omg2">김경진 "박 측에 기회 줄만큼 줬다, 헌재 2월초 끝내라"</a>
+						<p class="bonmoon">[팟짱 인터뷰 전문] 김경진 국민의당 의원 - 어째쓰까③ [오마이뉴스조창훈 기자] 인터뷰를 인용 보도할 때는 '오마이TV <장윤선·박정호의 팟짱... kr/ayzm ■ 진행 : 장윤선 오마이TV 방송국장 ■ 출연 : 김경진 국민의당 의원 아래는 24일 장윤선 오마이TV 방송국장과 김경진 국민의당 의원이...</p>
+					</div>
+					</li>
+				</ul>					
+			</div>
+		</div>
+		<div class="container columns">
+			<div class="blank"></div>
+			<div class="primary jiyuk">
+				<h2>지역구 활동</h2>
+			</div>
+			<div class="actual-jiyuk">
+			</div>
+		</div>
+	<footer class="main-footer">
+		<div class="summary">
+		<span class="yoyak">본회의 참석률 = 총 본회의 수 / 의원 참석 횟수</span>
+		<span class="yoyak">본표율 = 본회의 총 표결 수 / 의원 표결 참여수</span>
+		<span class="yoyak">본표가율 = 본회의 표결 가결 수 / 의원 표결 참여수</span>
+		<span class="yoyak">재대법발율 = 대표법안 발의 수 / 재임기간 (4년)</span>
+		<span class="yoyak">대벌발통율 = 의원회 통과 법안 수 / 대표 법안 발의수</span>
+		<span class="yoyak">의원회 참석율 = 상임의원회 참석 수 / 총 상임의원회회의 수</span>
+		</div>
+	 <p>&copy; 2014 NAleauge.</p>
+	</footer>
+	</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
